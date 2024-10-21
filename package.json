@@ -3,7 +3,7 @@
   "displayName": "Pseudocode Language Support",
   "description": "A simple VSCode plugin that adds support for the Pseudocode language used in cs ed in Germany",
   "version": "0.1.0",
-  "publisher": "Johannes (Jotrorox) Müller",
+  "publisher": "jotrorox",
   "engines": {
     "vscode": "^1.50.0"
   },

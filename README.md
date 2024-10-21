@@ -7,7 +7,7 @@ The Language is specified in the [Formelsammlung_Informationstechnik.pdf](Formel
 
 ## :sparkles: Features #### Features
 
-- :heavy_heavy_check_mark: Syntax Highlighting
+- :heavy_check_mark: Syntax Highlighting
 - :heavy_multiplication_x: Snippets
 - :heavy_multiplication_x: Linting
 - :heavy_multiplication_x: Code Formatting

@@ -1,4 +1,4 @@
-# VSCode PseudoCode Support
+# Better PseudoCode Support
 
 ## :dart: About ##
 

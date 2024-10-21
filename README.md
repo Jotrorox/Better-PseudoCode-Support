@@ -1,18 +1,18 @@
 # Better PseudoCode Support
 
-## :dart: About ##
+## 🎯 About
 
 VSCdoe PseudoCode Support for the PseudoCode dialect used by the German school System to teach Programming.
 The Language is specified in the [Formelsammlung Informationstechnik](https://www.schule-bw.de/faecher-und-schularten/berufliche-schularten/berufliches-gymnasium-oberstufe/musterpruefungsaufgaben-neue-bildungsplaene-abitur-2024/formelsammlung-it.pdf) file.
 
-## :sparkles: Features #### Features
+## ✨ Features
 
 - :heavy_check_mark: Syntax Highlighting
 - :heavy_multiplication_x: Snippets
 - :heavy_multiplication_x: Linting
 - :heavy_multiplication_x: Code Formatting
 
-## :dash: Getting Started #### Installation
+## 💨 Getting Started
 
 1. Launch Visual Studio Code
 2. From the command palette `Ctrl-Shift-P` (Windows, Linux) or `Cmd-Shift-P` (macOS)
@@ -22,7 +22,7 @@ The Language is specified in the [Formelsammlung Informationstechnik](https://ww
 
 Open a file with the `.pc` extension and start writing PseudoCode.
 
-## :raised_hands: Contributing ##
+## 🙌 Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -36,7 +36,7 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 
-## :memo: License ##
+## 📝 License
 
 This project is under the AGPLv3 License. For more details, see the [LICENSE](LICENSE) file.
 

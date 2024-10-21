@@ -1,6 +1,6 @@
 {
   "name": "pseudocode-support",
-  "displayName": "Pseudocode Language Support",
+  "displayName": "Better PseudoCode Support",
   "description": "A simple VSCode plugin that adds support for the Pseudocode language used in cs ed in Germany",
   "version": "0.1.0",
   "publisher": "jotrorox",
@@ -10,6 +10,10 @@
   "categories": [
     "Programming Languages"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jotrorox/pseudocode-syntax"
+  },
   "contributes": {
     "languages": [
       {

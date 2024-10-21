@@ -1,0 +1,31 @@
+{
+	"scopeName": "source.pseudocode",
+	"patterns": [
+	  {
+		"name": "keyword.control.pseudocode",
+		"match": "\\b(WENN|ENDE WENN|SOLANGE|ENDE SOLANGE|FÜR|ENDE FÜR|WIEDERHOLE|FALLS|SONST|ABBRUCH)\\b"
+	  },
+	  {
+		"name": "keyword.operator.pseudocode",
+		"match": "\\b(<|<=|>|>=|==|!=|≠|=)\\b"
+	  },
+	  {
+		"name": "storage.type.pseudocode",
+		"match": "\\b(Boolean|Integer|Real|Text|String|char)\\b"
+	  },
+	  {
+		"name": "variable.other.pseudocode",
+		"match": "\\b(dieVariable|derAusdruck|pName|personen|kollektion|element)\\b"
+	  },
+	  {
+		"name": "constant.language.pseudocode",
+		"match": "\\b(wahr|falsch|true|false)\\b"
+	  },
+	  {
+		"name": "keyword.loop.pseudocode",
+		"match": "\\b(SCHRITT|BIS|NICHTS|NEU|NULL|NONE)\\b"
+	  }
+	],
+	"repository": {}
+  }
+  

@@ -1,0 +1,30 @@
+{
+  "name": "pseudocode-highlighter",
+  "displayName": "Pseudocode Highlighter",
+  "description": "A simple VSCode plugin to highlight specified pseudocode in .pc files.",
+  "version": "0.1.0",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "pseudocode",
+        "aliases": ["Pseudocode", "pc"],
+        "extensions": [".pc"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pseudocode",
+        "scopeName": "source.pseudocode",
+        "path": "./syntaxes/pseudocode.tmLanguage.json"
+      }
+    ]
+  }
+}

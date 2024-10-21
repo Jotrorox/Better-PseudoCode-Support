@@ -1,9 +1,9 @@
 {
   "name": "pseudocode-highlighter",
   "displayName": "Pseudocode Highlighter",
-  "description": "A simple VSCode plugin to highlight specified pseudocode in .pc files.",
+  "description": "A simple VSCode plugin to highlight Pseudocode as it is used in German schools",
   "version": "0.1.0",
-  "publisher": "your-name",
+  "publisher": "Johannes (Jotrorox) Müller",
   "engines": {
     "vscode": "^1.50.0"
   },

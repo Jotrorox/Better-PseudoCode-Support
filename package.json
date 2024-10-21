@@ -2,7 +2,7 @@
   "name": "pseudocode-support",
   "displayName": "Better PseudoCode Support",
   "description": "A simple VSCode plugin that adds support for the Pseudocode language used in cs ed in Germany",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "jotrorox",
   "engines": {
     "vscode": "^1.50.0"
@@ -18,8 +18,13 @@
     "languages": [
       {
         "id": "pseudocode",
-        "aliases": ["Pseudocode", "pc"],
-        "extensions": [".pc"],
+        "aliases": [
+          "Pseudocode",
+          "pc"
+        ],
+        "extensions": [
+          ".pc"
+        ],
         "configuration": "./language-configuration.json"
       }
     ],

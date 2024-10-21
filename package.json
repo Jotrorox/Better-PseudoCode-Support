@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jotrorox/pseudocode-syntax"
+    "url": "https://github.com/Jotrorox/Better-PseudoCode-Support"
   },
   "contributes": {
     "languages": [

@@ -3,7 +3,7 @@
 ## :dart: About ##
 
 VSCdoe PseudoCode Support for the PseudoCode dialect used by the German school System to teach Programming.
-The Language is specified in the [Formelsammlung_Informationstechnik.pdf](Formelsammlung_Informationstechnik.pdf) file.
+The Language is specified in the [Formelsammlung Informationstechnik](https://www.schule-bw.de/faecher-und-schularten/berufliche-schularten/berufliches-gymnasium-oberstufe/musterpruefungsaufgaben-neue-bildungsplaene-abitur-2024/formelsammlung-it.pdf) file.
 
 ## :sparkles: Features #### Features
 

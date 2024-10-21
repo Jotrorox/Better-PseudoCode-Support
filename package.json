@@ -1,7 +1,7 @@
 {
-  "name": "pseudocode-highlighter",
-  "displayName": "Pseudocode Highlighter",
-  "description": "A simple VSCode plugin to highlight Pseudocode as it is used in German schools",
+  "name": "pseudocode-support",
+  "displayName": "Pseudocode Language Support",
+  "description": "A simple VSCode plugin that adds support for the Pseudocode language used in cs ed in Germany",
   "version": "0.1.0",
   "publisher": "Johannes (Jotrorox) Müller",
   "engines": {

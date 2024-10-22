@@ -78,4 +78,58 @@
         ],
         "description": "For loop with control break in Pseudocode"
     },
+    "Function": {
+        "prefix": "func",
+        "body": [
+            "${1:public} ${2:functionName}(${3:args})",
+            "\t${0}"
+        ],
+        "description": "Function in Pseudocode"
+    },
+    "Function Call": {
+        "prefix": "funccall",
+        "body": [
+            "${1:functionName}(${2:args})"
+        ],
+        "description": "Function call in Pseudocode"
+    },
+    "Function Return": {
+        "prefix": "funcreturn",
+        "body": [
+            "${1:public} ${2:functionName}(${3:args})${4: : ${5:returnType}}",
+            "\t${0}",
+            "\tRÜCKGABE ${6:returnValue}"
+        ],
+        "description": "Function with return in Pseudocode"
+    },
+    "Print": {
+        "prefix": "print",
+        "body": [
+            "AUSGABE ${1:output}"
+        ],
+        "description": "Print statement in Pseudocode"
+    },
+    "Program Base": {
+        "prefix": "program",
+        "body": [
+            "PROGRAMM ${1:programName}",
+            "\t${0}",
+            "ENDE PROGRAMM"
+        ],
+        "description": "Base Program in Pseudocode"
+    },
+    "Variable Assignment": {
+        "prefix": "vs",
+        "body": [
+            "${1:variable} <- ${2:value}"
+        ],
+        "description": "Variable assignment in Pseudocode"
+    },
+    "Variable Declaration": {
+        "prefix": "vd",
+        "body": [
+            "Variable Deklaration ${1:variable} vom Type ${2:type}"
+        ],
+        "description": "Variable declaration in Pseudocode"
+    }
 }

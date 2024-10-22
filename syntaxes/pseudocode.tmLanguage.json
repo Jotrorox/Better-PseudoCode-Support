@@ -7,7 +7,7 @@
       },
       {
         "name": "keyword.operator.pseudocode",
-        "match": "(?i)\\b(<|<=|>|>=|==|!=|≠|=|MOD|modulo)\\b"
+        "match": "(?i)\\b(<|<=|>|>=|==|!=|≠|=|MOD|modulo|gleich|und|oder)\\b"
       },
       {
         "name": "storage.type.pseudocode",
@@ -19,7 +19,7 @@
       },
       {
         "name": "keyword.loop.pseudocode",
-        "match": "(?i)\\b(SCHRITT|BIS|NICHTS|NEU|NULL|NONE)\\b"
+        "match": "(?i)\\b(SCHRITT|BIS|NICHTS|NEU|NULL|NONE|VD|A|rückgabe|vom Typ)\\b"
       }
     ],
     "repository": {}

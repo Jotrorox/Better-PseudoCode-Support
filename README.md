@@ -1,6 +1,6 @@
 # Better PseudoCode Support
 
-![alt text](image.png)
+![Screenshot](./rsc/image.png)
 
 ## 🎯 About
 

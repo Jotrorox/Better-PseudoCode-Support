@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Suggest a Snippet"
+    url: "https://github.com/Jotrorox/Better-PseudoCode-Support/issues/new?template=add_snippet.md"
+    about: "Suggest a new snippet to be added to the extension"
+  - name: "Suggest a Highlight"
+    url: "https://github.com/Jotrorox/Better-PseudoCode-Support/issues/new?template=add_highlight.md"
+    about: "Suggest a new highlight to be added to the extension"

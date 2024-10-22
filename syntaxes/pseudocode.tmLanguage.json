@@ -1,27 +1,26 @@
 {
-	"scopeName": "source.pseudocode",
-	"patterns": [
-	  {
-		"name": "keyword.control.pseudocode",
-		"match": "\\b(WENN|ENDE WENN|SOLANGE|ENDE SOLANGE|FÜR|ENDE FÜR|WIEDERHOLE|FALLS|SONST|ABBRUCH|GLEICH|ENDE FALLS)\\b"
-	  },
-	  {
-		"name": "keyword.operator.pseudocode",
-		"match": "\\b(<|<=|>|>=|==|!=|≠|=|MOD|modulo)\\b"
-	  },
-	  {
-		"name": "storage.type.pseudocode",
-		"match": "\\b(Boolean|boolean|bool|Integer|GZ|int|FKZ|Real|double|Text|String|string|char|Zeichen)\\b"
-	  },
-	  {
-		"name": "constant.language.pseudocode",
-		"match": "\\b(wahr|falsch|true|false)\\b"
-	  },
-	  {
-		"name": "keyword.loop.pseudocode",
-		"match": "\\b(SCHRITT|BIS|NICHTS|NEU|NULL|NONE)\\b"
-	  }
-	],
-	"repository": {}
-  }
-  
+    "scopeName": "source.pseudocode",
+    "patterns": [
+      {
+        "name": "keyword.control.pseudocode",
+        "match": "(?i)\\b(WENN|ENDE WENN|SOLANGE|ENDE SOLANGE|FÜR|ENDE FÜR|WIEDERHOLE|FALLS|SONST|ABBRUCH|GLEICH|ENDE FALLS)\\b"
+      },
+      {
+        "name": "keyword.operator.pseudocode",
+        "match": "(?i)\\b(<|<=|>|>=|==|!=|≠|=|MOD|modulo)\\b"
+      },
+      {
+        "name": "storage.type.pseudocode",
+        "match": "(?i)\\b(Boolean|boolean|bool|Integer|GZ|int|FKZ|Real|double|Text|String|string|char|Zeichen)\\b"
+      },
+      {
+        "name": "constant.language.pseudocode",
+        "match": "(?i)\\b(wahr|falsch|true|false)\\b"
+      },
+      {
+        "name": "keyword.loop.pseudocode",
+        "match": "(?i)\\b(SCHRITT|BIS|NICHTS|NEU|NULL|NONE)\\b"
+      }
+    ],
+    "repository": {}
+}

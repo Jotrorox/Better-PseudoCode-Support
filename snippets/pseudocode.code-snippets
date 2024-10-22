@@ -1,63 +1,74 @@
 {
-  "If Statement": {
-    "prefix": "if",
-    "body": [
-      "WENN ${1:condition}",
-      "\t${0}",
-      "ENDE WENN"
-    ],
-    "description": "If statement in Pseudocode"
-  },
-  "If Else Statement": {
-    "prefix": "ifelse",
-    "body": [
-      "WENN ${1:condition}",
-      "\t${2}",
-      "SONST",
-      "\t${0}",
-      "ENDE WENN"
-    ],
-  },
-  "Switch Statement": {
-    "prefix": "switch",
-    "body": [
-      "FALLS ${1:condition}",
-      "\t${0}",
-      "SONST",
-      "\t${2}",
-      "ENDE FALLS"
-    ],
-  },
-  "While Loop - TOP": {
-    "prefix": "while",
-    "body": [
-        "SOLANGE ${1:condition}",
-        "\t${0}",
-        "ENDE SOLANGE"
-    ]
-  },
-  "While Loop - BTM": {
-    "prefix": "dowhile",
-    "body": [
-        "WIEDERHOLE",
-        "\t${0}",
-        "SOLANGE ${1:condition}"
-    ]
-  },
-  "For Loop": {
-    "prefix": "for",
-    "body": [
-        "FÜR i<-${1:0} BIS ${2:10} SCHRITT ${3:1}",
-        "\t${0}",
-        "ENDE FÜR"
-    ]
-  },
-  "For Loop Iteration": {
-    "prefix": "foriter",
-    "body": [
-        "FÜR ${1:variable} IN ${2:range}",
-        "\t${0}",
-        "ENDE FÜR"
-    ]
-  }
+    "If Statement": {
+        "prefix": "if",
+        "body": [
+            "WENN ${1:condition}",
+            "\t${0}",
+            "ENDE WENN"
+        ],
+        "description": "If statement in Pseudocode"
+    },
+    "If Else Statement": {
+        "prefix": "ifelse",
+        "body": [
+            "WENN ${1:condition}",
+            "\t${2}",
+            "SONST",
+            "\t${0}",
+            "ENDE WENN"
+        ],
+    },
+    "Switch Statement": {
+        "prefix": "switch",
+        "body": [
+            "FALLS ${1:condition}",
+            "\t${0}",
+            "SONST",
+            "\t${2}",
+            "ENDE FALLS"
+        ],
+    },
+    "While Loop - TOP": {
+        "prefix": "while",
+        "body": [
+            "SOLANGE ${1:condition}",
+            "\t${0}",
+            "ENDE SOLANGE"
+        ]
+    },
+    "While Loop - BTM": {
+        "prefix": "dowhile",
+        "body": [
+            "WIEDERHOLE",
+            "\t${0}",
+            "SOLANGE ${1:condition}"
+        ]
+    },
+    "For Loop": {
+        "prefix": "for",
+        "body": [
+            "FÜR i<-${1:0} BIS ${2:10} SCHRITT ${3:1}",
+            "\t${0}",
+            "ENDE FÜR"
+        ]
+    },
+    "For Loop Iteration": {
+        "prefix": "foriter",
+        "body": [
+            "FÜR ${1:variable} IN ${2:range}",
+            "\t${0}",
+            "ENDE FÜR"
+        ]
+    },
+    "Loop with Control Break": {
+        "prefix": "foribreak",
+        "body": [
+            "FÜR i<-${1:0} BIS ${2:10} SCHRITT ${3:1}",
+            "\tWENN ${4:condition}",
+            "\t\tABBRUCH",
+            "\tENDE WENN",
+            "\t${0}",
+            "ENDE FÜR"
+        ]
+    },
 }

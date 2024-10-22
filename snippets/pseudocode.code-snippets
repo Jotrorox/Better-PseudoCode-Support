@@ -17,6 +17,7 @@
             "\t${0}",
             "ENDE WENN"
         ],
+        "description": "If Else statement in Pseudocode",
     },
     "Switch Statement": {
         "prefix": "switch",
@@ -27,6 +28,7 @@
             "\t${2}",
             "ENDE FALLS"
         ],
+        "description": "Switch statement in Pseudocode"
     },
     "While Loop - TOP": {
         "prefix": "while",
@@ -34,7 +36,8 @@
             "SOLANGE ${1:condition}",
             "\t${0}",
             "ENDE SOLANGE"
-        ]
+        ],
+        "description": "While loop in Pseudocode"
     },
     "While Loop - BTM": {
         "prefix": "dowhile",
@@ -42,7 +45,8 @@
             "WIEDERHOLE",
             "\t${0}",
             "SOLANGE ${1:condition}"
-        ]
+        ],
+        "description": "Do While loop in Pseudocode"
     },
     "For Loop": {
         "prefix": "for",
@@ -50,7 +54,8 @@
             "FÜR i<-${1:0} BIS ${2:10} SCHRITT ${3:1}",
             "\t${0}",
             "ENDE FÜR"
-        ]
+        ],
+        "description": "Standard for loop in Pseudocode"
     },
     "For Loop Iteration": {
         "prefix": "foriter",
@@ -58,7 +63,8 @@
             "FÜR ${1:variable} IN ${2:range}",
             "\t${0}",
             "ENDE FÜR"
-        ]
+        ],
+        "description": "For Loop iteration in Pseudocode"
     },
     "Loop with Control Break": {
         "prefix": "foribreak",
@@ -69,6 +75,7 @@
             "\tENDE WENN",
             "\t${0}",
             "ENDE FÜR"
-        ]
+        ],
+        "description": "For loop with control break in Pseudocode"
     },
 }

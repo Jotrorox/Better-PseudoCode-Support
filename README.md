@@ -8,7 +8,7 @@ The Language is specified in the [Formelsammlung Informationstechnik](https://ww
 ## ✨ Features
 
 - :heavy_check_mark: Syntax Highlighting
-- :heavy_multiplication_x: Snippets
+- :heavy_check_mark: Snippets
 - :heavy_multiplication_x: Linting
 - :heavy_multiplication_x: Code Formatting
 

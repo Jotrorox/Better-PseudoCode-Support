@@ -1,5 +1,7 @@
 # Better PseudoCode Support
 
+![alt text](image.png)
+
 ## 🎯 About
 
 VSCode PseudoCode Support for the PseudoCode dialect used by the German school system to teach Programming.
@@ -7,10 +9,10 @@ The Language is specified in the [Formelsammlung Informationstechnik](https://ww
 
 ## ✨ Features
 
-- :heavy_check_mark: Syntax Highlighting
-- :heavy_check_mark: Snippets
-- :heavy_multiplication_x: Linting
-- :heavy_multiplication_x: Code Formatting
+- ✅ Syntax Highlighting
+- ✅ Snippets
+- ❌ Linting
+- ❌ Code Formatting
 
 If you have any suggestions for new features or things like snippets that should be added feel free to open an [issue](https://github.com/Jotrorox/Better-PseudoCode-Support/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) or a [pull request](https://github.com/Jotrorox/Better-PseudoCode-Support/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen).
 

@@ -34,6 +34,12 @@
         "scopeName": "source.pseudocode",
         "path": "./syntaxes/pseudocode.tmLanguage.json"
       }
+    ],
+    "snippets": [
+      {
+        "language": "pseudocode",
+        "path": "./snippets/pseudocode.code-snippets"
+      }
     ]
   }
 }

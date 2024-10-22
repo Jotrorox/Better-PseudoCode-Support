@@ -1,0 +1,47 @@
+{
+  "If Statement": {
+    "prefix": "if",
+    "body": [
+      "WENN ${1:condition}",
+      "\t${0}",
+      "ENDE WENN"
+    ],
+    "description": "If statement in Pseudocode"
+  },
+  "If Else Statement": {
+    "prefix": "ifelse",
+    "body": [
+      "WENN ${1:condition}",
+      "\t${2}",
+      "SONST",
+      "\t${0}",
+      "ENDE WENN"
+    ],
+  },
+  "Switch Statement": {
+    "prefix": "switch",
+    "body": [
+      "FALLS ${1:condition}",
+      "\t${0}",
+      "SONST",
+      "\t${2}",
+      "ENDE FALLS"
+    ],
+  },
+  "For Loop Simple": {
+    "prefix": "for",
+    "body": [
+        "SOLANGE ${1:condition}",
+        "\t${0}",
+        "ENDE SOLANGE"
+    ]
+  },
+  "While Loop": {
+    "prefix": "while",
+    "body": [
+        "WIEDERHOLE",
+        "\t${0}",
+        "SOLANGE ${1:condition}"
+    ]
+  }
+}

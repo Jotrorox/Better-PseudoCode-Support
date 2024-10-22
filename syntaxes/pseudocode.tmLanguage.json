@@ -1,26 +1,26 @@
 {
-    "scopeName": "source.pseudocode",
-    "patterns": [
-      {
-        "name": "keyword.control.pseudocode",
-        "match": "(?i)\\b(WENN|ENDE WENN|SOLANGE|ENDE SOLANGE|FÜR|ENDE FÜR|WIEDERHOLE|FALLS|SONST|ABBRUCH|GLEICH|ENDE FALLS)\\b"
-      },
-      {
-        "name": "keyword.operator.pseudocode",
-        "match": "(?i)\\b(<|<=|>|>=|==|!=|≠|=|MOD|modulo|gleich|und|oder|<-)\\b"
-      },
-      {
-        "name": "storage.type.pseudocode",
-        "match": "(?i)\\b(Boolean|boolean|bool|Integer|GZ|int|FKZ|Real|double|Text|String|string|char|Zeichen)\\b"
-      },
-      {
-        "name": "constant.language.pseudocode",
-        "match": "(?i)\\b(wahr|falsch|true|false)\\b"
-      },
-      {
-        "name": "keyword.loop.pseudocode",
-        "match": "(?i)\\b(SCHRITT|BIS|NICHTS|NEU|NULL|NONE|VD|A|rückgabe|vom Typ)\\b"
-      }
-    ],
-    "repository": {}
+  "scopeName": "source.pseudocode",
+  "patterns": [
+    {
+      "name": "keyword.control.pseudocode",
+      "match": "(?i)\\b(WENN|ENDE WENN|SOLANGE|ENDE SOLANGE|FÜR|ENDE FÜR|WIEDERHOLE|FALLS|SONST|ABBRUCH|GLEICH|ENDE FALLS)\\b"
+    },
+    {
+      "name": "keyword.operator.pseudocode",
+      "match": "(?i)\\b(<|<=|>|>=|==|!=|≠|=|MOD|modulo|gleich|und|oder|<-)\\b"
+    },
+    {
+      "name": "storage.type.pseudocode",
+      "match": "(?i)\\b(Boolean|boolean|bool|Integer|GZ|int|FKZ|Real|double|Text|String|string|char|Zeichen)\\b"
+    },
+    {
+      "name": "constant.language.pseudocode",
+      "match": "(?i)\\b(wahr|falsch|true|false)\\b"
+    },
+    {
+      "name": "keyword.loop.pseudocode",
+      "match": "(?i)\\b(SCHRITT|BIS|NICHTS|NEU|NULL|NONE|VD|A|rückgabe|vom Typ)\\b"
+    }
+  ],
+  "repository": {}
 }

@@ -7,7 +7,7 @@
       },
       {
         "name": "keyword.operator.pseudocode",
-        "match": "(?i)\\b(<|<=|>|>=|==|!=|≠|=|MOD|modulo|gleich|und|oder)\\b"
+        "match": "(?i)\\b(<|<=|>|>=|==|!=|≠|=|MOD|modulo|gleich|und|oder|<-)\\b"
       },
       {
         "name": "storage.type.pseudocode",
